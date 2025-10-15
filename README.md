@@ -1,4 +1,4 @@
-# ⚙️ SCADEX — Industrial Control System Protocol Scanner
+# SCADEX 
 
 ![License](https://img.shields.io/badge/license-GPL--3.0-blue.svg)
 ![Language](https://img.shields.io/badge/language-C-orange.svg)
@@ -7,9 +7,8 @@
 
 ---
 
-**SCADEX** is a **multi-threaded Industrial Control System (ICS) network scanner** designed to identify common ICS protocols running on IP hosts.  
-It helps in assessing exposure of critical systems by detecting services such as **Modbus**, **Siemens S7**, **BACnet**, and **DNP3**.
-
+Industrial Control System Protocol Scanner
+scadex is a **multi threaded Industrial Control System network scanner** designed to identify common ICS protocols running on IP hosts.
 ---
 
 ## Features
