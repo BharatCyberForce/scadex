@@ -60,59 +60,19 @@ gcc -o scadex scadex.c -lpthread
 
 ---
 
-## Input File Format
-
-`targets.txt` can contain:
-
-```text
-# Single IPs
-192.168.1.10
-10.0.0.2
-
-# IP Ranges
-192.168.1.1-192.168.1.100
-
-# CIDR Notation
-10.0.0.0/24
-```
-
-Comments (`#`) and blank lines are ignored.
-
----
-
-## Output Example
-
-If `-o results.csv` is used, detections are saved in CSV format:
-
-```csv
-192.168.1.10,Modbus
-10.0.0.15,S7
-10.0.0.25,BACnet
-```
-
----
-
-## 🧑‍💻 Author
+## Author
 
 **Indian Cyber Force**
 
-> A community-driven initiative focusing on cybersecurity education, open-source security tools, and industrial system protection.
+> open source recon,pentest tools and exploits.
 
 ---
 
-## Future Roadmap
+## Future
 
-* [ ] Add more ICS/SCADA protocols (e.g., OPC UA, EtherNet/IP, IEC-104)
-* [ ] Add banner grabbing / version detection
-* [ ] Add output formats: JSON, HTML
-* [ ] Integrate service fingerprinting module
-
----
-
-## 📜 License
-
-This project is licensed under the **GNU GPL v3.0** license.
-See the [LICENSE](LICENSE) file for details.
+* Add more ICS/SCADA protocols
+* Add banner grabbing / version detection
+* Integrate service fingerprinting module
 
 ---
 
