@@ -1,4 +1,5 @@
 //Scan Industrial Control Systems 
+//Fastest Scan With High Accuracy/(Find Out Exact Protocols)
 //Support Protocols 502 (modbus),102 (s7),47808 (bacnet),20000 (dnp)
 //Author: Indian Cyber Force
 
