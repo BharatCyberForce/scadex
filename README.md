@@ -76,8 +76,4 @@ gcc -o scadex scadex.c -lpthread
 
 
 
-
-> 💡 “Securing critical infrastructure starts with knowing what’s exposed.”
-> — *Indian Cyber Force*
-
 ⚠️ Disclaimer Indian Cyber Force is not responsible for any illegal or unauthorized activity
