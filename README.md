@@ -8,7 +8,7 @@
 ---
 
 Industrial Control System Protocol Scanner
-scadex is a **multi threaded Industrial Control System network scanner** designed to identify common ICS protocols running on IP hosts.
+scadex is a **multi threaded Industrial Control System network scanner** designed to identify ICS protocols running on IP hosts.
 ---
 
 ## Features
@@ -56,14 +56,6 @@ gcc -o scadex scadex.c -lpthread
 | `-v`             | Verbose mode — shows all scanned IPs, even those without detections          |
 | `-p <protocols>` | Comma-separated list of protocols to scan (`modbus`, `s7`, `bacnet`, `dnp3`) |
 | `-h`             | Display usage information                                                    |
-
----
-
-## Author
-
-**Indian Cyber Force**
-
-> open source recon,pentest tools and exploits.
 
 ---
 
