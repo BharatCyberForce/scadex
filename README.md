@@ -7,7 +7,8 @@
 
 ---
 
-Industrial Control System Protocol Scanner
+Industrial Control System Protocol Scanner!
+
 scadex is a **multi threaded Industrial Control System network scanner** designed to identify ICS protocols running on IP hosts.
 ---
 
