@@ -52,7 +52,7 @@ gcc -o scadex scadex.c -lpthread
 | `-i <file>`      | Input file containing IPs, ranges, or CIDR blocks *(required)*               |
 | `-t <threads>`   | Number of concurrent threads *(default: 20, max: 100)*                       |
 | `-o <file>`      | Output CSV file for detected services                                        |
-| `-v`             | Verbose mode — shows all scanned IPs, even those without detections          |
+| `-v`             | Verbose mode (shows all scanned IPs, even those without detections  )        |
 | `-p <protocols>` | Comma-separated list of protocols to scan (`modbus`, `s7`, `bacnet`, `dnp3`) |
 | `-h`             | Display usage information                                                    |
 
