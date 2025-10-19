@@ -30,7 +30,6 @@ scadex is a **multi threaded Industrial Control System network scanner** designe
 
 - GCC or Clang (C compiler)
 - POSIX environment (Linux, BSD, macOS)
-- pthreads library (usually preinstalled)
 
 ### Compilation
 
@@ -63,7 +62,6 @@ gcc -o scadex scadex.c -lpthread
 
 * Add more ICS/SCADA protocols
 * Add banner grabbing / version detection
-* Integrate service fingerprinting module
 
 ---
 
