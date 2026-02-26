@@ -14,7 +14,7 @@ scadex is a **multi threaded Industrial Control System network scanner** designe
 
 ## Features
 
-- 🔍 Detects multiple **ICS protocols**:
+- Detects multiple **ICS protocols**:
   - **Modbus/TCP (502)**
   - **Siemens S7 (102)**
   - **BACnet/IP (47808)**
@@ -38,7 +38,7 @@ scadex is a **multi threaded Industrial Control System network scanner** designe
 gcc -o scadex scadex.c -lpthread
 ````
 
-### 🧪 Run Example
+### Run Commands
 
 ```bash
 ./scadex -i targets.txt -t 50 -o results.csv -v -p modbus,s7,bacnet,dnp3
@@ -76,5 +76,6 @@ gcc -o scadex scadex.c -lpthread
 | `./scadex -i targets.txt -o found.csv` | Save detected hosts to CSV        |
 
 
+## GUI
 
 ⚠️ Disclaimer Indian Cyber Force is not responsible for any illegal or unauthorized activity
